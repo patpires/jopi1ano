@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  background-image: url('back.png'); /* Substitua 'background.jpg' pela imagem do parque de diversões */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #87cefa;
+  text-align: center;
+  padding: 1em 0;
+  font-family: 'Pacifico', cursive;
+text-shadow: 0 0 0.3em #87F, 0 0 0.3em #87F, 0 0 0.3em #87F
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 1em;
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.game {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  width: calc(100% - 2em);
+  max-width: 300px;
+  text-align: center;
+}
+
+.game h2 {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+  font-family: 'Pacifico', cursive;
+  color:#cc601f;
+}
+
+.game a {
+  display: block;
+  background-color: #87cefa;
+  color: #87f;
+  text-shadow: 0 0 0.4em #fa88d0, 0 0 0.4em #fa88d0 , 0 0 0.2em #fa88d0;
+  padding: 0.5em;
+  text-decoration: none;
+  border-radius: 25px;
+  margin: 0.5em 0;
+  transition: background-color 0.3s;
+  font-family: 'Pacifico', cursive;
+}
+
+.game a:hover {
+  background-color: #87cefa;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #87cefa;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
